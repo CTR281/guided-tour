@@ -2,11 +2,9 @@
 
 ![demo](/doc/demo.gif)
 
-GuidedTour enables Angular developers to implement their own slideshow to highlight features of a website page.
+GuidedTour enables Angular developers to build customizable and responsive guided tours that highlight features of an application page.
 
-It is an <b>Angular library</b>, meant to be consumed by an <b>Angular application</b>.
-
-It is compatible with standalone Angular applications (v14 and later) through `provideGuidedTour()` and also supports older versions that uses `NgModules()` via `GuidedTourModule.forRoot()`. However, extensive testing would be required to identify the oldest compatible version.
+It is an Angular library compatible with standalone Angular applications (v14 and later) through `provideGuidedTour()` and also supports older versions that uses `NgModules()` via `GuidedTourModule.forRoot()`. However, extensive testing would be required to identify the oldest compatible version.
 
 Creating a guided tour is done within an application. It essentially entails two steps:
 
