@@ -1,0 +1,26 @@
+.content {
+  margin-top: 100px;
+  padding-top: 1rem;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background: pink;
+}
+
+.offscreen {
+  position: absolute;
+  top: 2000px;
+  height: 100px;
+  width: 100%;
+  background: pink;
+}
+
+@media (max-width: 600px) {
+  #tour {
+    display: none;
+  }
+}
